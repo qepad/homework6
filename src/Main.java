@@ -72,11 +72,11 @@ public class Main {
 
         System.out.println("Задача 9");
         savings = 29000;
-        total = 0;
+        float total2 = 0F;
         for (int i = 1; i <= 12; i++) {
-            total = total + total / 100;
-            total = total + savings;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+            total2 = total2 + total2 / 100;
+            total2 = total2 + savings;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total2 + " рублей");
         }
 
 
